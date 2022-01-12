@@ -1,0 +1,166 @@
+/* common css start */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* common css end */
+/* Header start */
+header {
+  background-color: black;
+  height: 550px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo {
+  padding-top: 12px;
+  font-size: 30px;
+  font-weight: 700;
+  color: brown;
+  float: left;
+}
+.menu {
+  
+  float: right;
+}
+.menu ul {
+  float: left;
+}
+.menu ul li {
+  list-style-type: none;
+  float: left;
+}
+.menu ul li a {
+  margin: 0 30px;
+  font-size: 23px;
+  font-weight: 400;
+  color: brown;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.resume {
+  width: 40%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+.resume h1 {
+  margin-top: 200px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 4px;
+}
+
+.resume h5 {
+  margin: 5px;
+}
+.btn {
+  border: none;
+  background: #db1bbd;
+  border-radius: 60px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  color: white;
+}
+/* About me start */
+.container2 {
+  width: 50%;
+  margin: 0 auto;
+}
+.about-me {
+  text-align: center;
+}
+.about-me h2 {
+}
+.about-me p {
+  text-opacity: 38px;
+}
+/* About me end*/
+/* My skill */
+.skill {
+  margin-top: 100px;
+}
+.skill1 {
+  float: left;
+  width: 33%;
+}
+.skill1 h4 {
+  text-align: center;
+}
+.skill1 p {
+  text-align: center;
+  text-transform: 0.3;
+}
+/* My skill end */
+.works {
+  text-align: center;
+}
+/* Album section start */
+.album1 {
+  display: flex;
+}
+.album1 img {
+  width: 100%;
+}
+.album2 {
+  display: flex;
+}
+.album {
+  width: 100%;
+  margin: 1%;
+}
+.album img {
+  width: 100%;
+}
+/* Album section end*/
+/* Contact page start */
+.container3 {
+  width: 45%;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+.get-into {
+  text-align: center;
+}
+.btn1 {
+  border: none;
+  background: #db1bbd;
+  border-radius: 60px;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.social-icon {
+  margin: 63px 80px;
+}
+.social-icon a {
+  margin: 0px 36px;
+  color: #751261;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.social-icon a:hover {
+  color: rgb(15, 15, 15);
+}
+/* Contact page end */
+/* Footer start */
+footer {
+  background-color: black;
+}
+.fotter-txt p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+/* footer end */
